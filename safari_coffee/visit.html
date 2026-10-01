@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Safari Coffee</title>
+    <title>Visit Us - Safari Coffee</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500&display=swap">
     <link rel="stylesheet" href="./static/css/styles.css">
@@ -18,8 +18,36 @@
             <a href="./story.html">Our Story</a>
             <a href="./blog.html">Journal</a>
             <label for="theme" class="theme-toggle" title="Toggle light/dark"></label>
-            <a href="./visit.html" class="btn-small">Visit Us</a>
+            <a href="./visit.html" class="btn-small active">Visit Us</a>
         </nav>
     </header>
+
+    <section class="section" style="display: grid; grid-template-columns: 1fr 1fr; gap: 32px">
+        <div>
+            <h2 style="font-size: clamp(36px, 5vw, 64px);">Come through.</h2>
+            <p style="color: var(--muted); margin-top: 16px">
+                12 Makutano Road, Meru, Kenya<br>7am - 6pm daily<br>hello@safaricoffee.ke<br>+254 798 860 266
+            </p>
+        </div>
+
+        <div>
+            <form class="form">
+                <input type="text" class="input" placeholder="Your name..." required>
+                <input type="text" class="input" placeholder="Your email..." required>
+                <textarea name="Message" rows="4" class="input" placeholder="Message — wholesale, events, or just hello" required></textarea>
+                <button class="btn-primary" style="border: none; cursor: pointer;">
+                    Send message
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <address>
+            &copy; Safari Coffee – 12 Makutano Rd, Meru
+        </address>
+        <p>7am - 6pm Daily</p>
+        <div>Instagram – @safaricoffee.ke</div>
+    </footer>
 </body>
 </html>
